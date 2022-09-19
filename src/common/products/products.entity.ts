@@ -25,5 +25,8 @@ export class ProductsEntity {
 
     @Column('date')
     expireOn: Date;
+
+    @Column('boolean')
+    activate: boolean;
     
 }
